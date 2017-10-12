@@ -14,4 +14,25 @@
 ** Logistics & Distribution
 ** Crowd-Sourced Constitution?
    * [[http://www.taurillon.org/une-constitution-europeenne-pour-et-par-les-citoyens][Une Constitution européenne pour et par les citoyens - Le Taurillon, magazine eurocitoyenne]]   
-** Adaptive Health-Care: Beyond Insurance
+** Adaptive Health-Care: Beyond Insurance and Social Security
+
+* Approaches
+  * Formal Logics (Rule-Based)
+    * Knowledge Representation (KR)
+    * Semantic Knowledge Graphs
+    * advantage: starts with a formal language that a machine can process and which can be made understandable to a human (RDF, JSON-LD)
+    * Linked Opend Data
+      - [[http://lodlaundromat.org/][LOD Laundromat]]: 
+        Access to /all/ linked open data and data cleaning
+      - [[https://json-ld.org/][JSON-LD - JSON for Linking Data]]
+      - [[http://rdfa.info/]]
+  * Statistical Models & Methods
+    * Machine Learning Techniques
+      * advantage: 
+        - statistical methods are proving promising to scale
+      * disadvantage:
+        - needs a lot of data and processing power
+        - result not always clear
+        - bias in data is reflected in output
+        - cannot compose semantically with other system
+        - results highly correlated/coupled with dataset learned on
