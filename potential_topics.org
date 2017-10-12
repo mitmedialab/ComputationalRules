@@ -1,20 +1,22 @@
 * Adaptive Governance Topics
-** Managing common-pool resources
-   * Water Rights
-   * Game & Wildlife Population
-     * Fisheries
 
-** Intent-Matching 
-   * Offer Networks:
-     * AI market-making based on asserted (and potentially inferred) intents. This is similar to kidney networks where donor-types and recipients don't always match, except here there are chains of different offers and requests. Offernetworks.
-     * balanced with perceived global health of the network by competing heterogeneous objective (functions), whose fitness is augmented by human input and interaction and other sensors/signals (the hypothesis here is that a singular objective function (make more $, increase production), without regard to external feedback leads to pathological structure)
-** Adaptive Cities
-** Automated Indoor Food Production
-** Transportation
-** Logistics & Distribution
-** Crowd-Sourced Constitution?
-   * [[http://www.taurillon.org/une-constitution-europeenne-pour-et-par-les-citoyens][Une Constitution européenne pour et par les citoyens - Le Taurillon, magazine eurocitoyenne]]   
-** Adaptive Health-Care: Beyond Insurance and Social Security
+** Example Contexts
+*** Managing common-pool resources
+    * Water Rights
+    * Game & Wildlife Population
+      * Fisheries
+
+*** Intent-Matching 
+    * Offer Networks:
+      * AI market-making based on asserted (and potentially inferred) intents. This is similar to kidney networks where donor-types and recipients don't always match, except here there are chains of different offers and requests. Offernetworks.
+      * balanced with perceived global health of the network by competing heterogeneous objective (functions), whose fitness is augmented by human input and interaction and other sensors/signals (the hypothesis here is that a singular objective function (make more $, increase production), without regard to external feedback leads to pathological structure)
+*** Adaptive Cities
+*** Automated Indoor Food Production
+*** Transportation
+*** Logistics & Distribution
+*** Crowd-Sourced Constitution/Laws?
+    * [[http://www.taurillon.org/une-constitution-europeenne-pour-et-par-les-citoyens][Une Constitution européenne pour et par les citoyens - Le Taurillon, magazine eurocitoyenne]]   
+*** Adaptive Health-Care: Beyond Insurance and Social Security
 
 * Approaches
   * Formal Logics (Rule-Based)
@@ -22,7 +24,7 @@
     * Semantic Knowledge Graphs
     * advantage: starts with a formal language that a machine can process and which can be made understandable to a human (RDF, JSON-LD)
     * Linked Opend Data
-      - [[http://lodlaundromat.org/][LOD Laundromat]]: 
+      - [[http://lodlaundromat.org/][LOD Laundromat]]:
         Access to /all/ linked open data and data cleaning
       - [[https://json-ld.org/][JSON-LD - JSON for Linking Data]]
       - [[http://rdfa.info/]]
@@ -32,7 +34,10 @@
         - statistical methods are proving promising to scale
       * disadvantage:
         - needs a lot of data and processing power
-        - result not always clear
+        - not always clear how we got to final output
         - bias in data is reflected in output
-        - cannot compose semantically with other system
         - results highly correlated/coupled with dataset learned on
+        - cannot compose semantically with other system
+
+* Buildable Options
+  - (eg: open source software, available API's and other services, other options, etc)
