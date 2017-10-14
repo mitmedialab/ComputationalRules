@@ -1,3 +1,4 @@
+
 * Adaptive Governance Topics
 
 ** Example Contexts
@@ -7,7 +8,8 @@
       * Fisheries
 *** Attestations in a Decentralized context
     * Land Rights
-*** Carbon Credit exchange market
+*** Voluntary environmental credit exchange market
+    * Carbon Credit exchange market
 *** Traffic/Parking Code
 *** Intent-Matching 
     * Offer Networks:
@@ -20,7 +22,6 @@
 *** Crowd-Sourced Constitution/Laws?
     * [[http://www.taurillon.org/une-constitution-europeenne-pour-et-par-les-citoyens][Une Constitution européenne pour et par les citoyens - Le Taurillon, magazine eurocitoyenne]]   
 *** Adaptive Health-Care: Beyond Insurance and Social Security
-
 * Approaches
   * Formal Logics (Rule-Based)
     * Knowledge Representation (KR)
@@ -42,10 +43,18 @@
         - results highly correlated/coupled with dataset learned on
         - cannot compose semantically with other system
 
+* Todo items          
+  * TODO
+  * [ ] 
+  * 
+
+
+
+
 * Design Goals
   * To demonstrate a general design pattern for a generic data-driven adaptive rules engine
-
-** Dazza's Directives
+    
+** Directives
   * following a /more general/ not more specific path for *simplest and shortest* route to a demo-able thing that is
     - sufficient relevant
     - ready to present
@@ -54,7 +63,8 @@
        1. a voluntary carbon credit exchange market
        2. a municipal traffic/parking code) 
   * /data-centric/ (eg JSON or other data format)
-  * the data and code operate and complements the words spoken by the person demonstrating the code
+    - that is data is decoupled from the rules-engine
+    - the data and code are to complement the spoken demonstration
   * *propose a project to code and describe*
     - the sort of data it would invest
     - the behavior it would exhibit
@@ -68,6 +78,10 @@
       - the combinations of parties/roles/relationships
       - the velocity/size/etc of deal flow
       - the range of goods/services exchanged
-
 * Buildable Options
-  - (eg: open source software, available API's and other services, other options, etc)
+** Data Sources
+   * Oakland 
+     * [[http://data.openoakland.org/dataset][Open Oakland | Community Powered Innovation]]
+     * [[http://www2.oaklandnet.com/government/index.htm][Government | City of Oakland | California]]
+   * [[https://mdgs.un.org/unsd/mdg/Data.aspx][unstats | Millennium Indicators]]
+   * [[http://openwaterfoundation.org/resources/open-data][Open Data | Open Water Foundation]]
