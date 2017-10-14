@@ -43,14 +43,6 @@
         - results highly correlated/coupled with dataset learned on
         - cannot compose semantically with other system
 
-* Todo items          
-  * TODO
-  * [ ] 
-  * 
-
-
-
-
 * Design Goals
   * To demonstrate a general design pattern for a generic data-driven adaptive rules engine
     
