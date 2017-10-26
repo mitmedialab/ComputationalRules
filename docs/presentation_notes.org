@@ -1,0 +1,35 @@
+* Formal Methods
+  * What is "Formal Methods"?
+    * use of rigourous mathematics in the application of cyber systems to
+    * "[[http://wiki.c2.com/?CorrectByConstruction][Correct by construction]]"
+      - The seven principles:
+        1. Expect requirements to change.
+        2. Know why you're testing.
+        3. Eliminate errors before testing.
+        4. Write software that is easy to verify.
+        5. Develop incrementally.
+        6. Some aspects of software development are just plain hard.
+        7. Software is not useful by itself.
+           a. To allow the developers to get from a set of requirements to an implementation.
+           b. To allow the maintainers to understand how the implementation satisfies the requirements.
+    * think of formal verification as generative testing on steriods; it allows us to build confidence in the correct behavior of our software and ensure entire classes of bugs are not possible
+  * Is not a panacea
+    - steep learning curve
+    - high initial investment in training, time
+    - maturing field (despite decades of history)
+    - despite improvements, is still lacking tight integration with existing software development practices
+  * Has the advantage of
+    - greater code coverage than unit testing
+    - can be used to incrementally prototype protocols, distributed software architecture
+
+* General Themes
+  * Digital Rights/Authority
+    - granular delegation of authority using "cryptographic capabilities"
+    - object capabilities represent a "bearer's token" which represents scoped access rights to some computational resource, whether that be a camera on your phone, a file on someone else's computer ("the cloude"), or a highly sensitive field in your own personal medical record
+  * logically analyse and "prove" properties and behavior of networks of composable "smart" contracts
+
+* Specific Use Scenarios
+** independent content producer and smart contracts
+   * independent producer creates digital video, wants to share
+** MMO Mixed Reality Game Economic System
+   * 
